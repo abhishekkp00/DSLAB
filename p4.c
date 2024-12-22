@@ -1,3 +1,7 @@
+/*4. A Program in C for converting an Infix Expression to Postfix Expression. The below program 
+support for both parenthesized and free parenthesized expressions with the operators: +, -, *, /, 
+%(Remainder), ^(Power) and alphanumeric operands.*/
+
 #include <stdio.h> 
 #define SIZE 20 
 char s[SIZE]; 
