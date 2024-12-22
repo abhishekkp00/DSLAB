@@ -9,10 +9,10 @@ struct calElement
 }; 
 struct calElement* create() // it creates calendar structure for 7 days  
 { 
-struct calElement *calendar; 
-// dynamic allocation for calendar 
-calendar = (struct calElement *)malloc(sizeof(struct calElement)*7); 
-return calendar; 
+    struct calElement *calendar; 
+    // dynamic allocation for calendar 
+    calendar = (struct calElement *)malloc(sizeof(struct calElement)*7); 
+    return calendar; 
 } 
 void read(struct calElement *calendar) 
 { 
